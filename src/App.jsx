@@ -7,7 +7,7 @@ function App() {
   return ( 
     <div>
         
-        <BrowserRouter>
+        <BrowserRouter basename="/webinar-clone">
          <AppRoutes/>
         </BrowserRouter>
     </div>
