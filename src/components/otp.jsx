@@ -83,9 +83,7 @@ function Subotpbox({myref,ondone,goback,check}){
                 check();
                 }
                 
-            }}
-            
-        
+            }} 
               />
           
           </div>

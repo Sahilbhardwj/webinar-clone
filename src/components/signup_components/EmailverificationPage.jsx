@@ -30,9 +30,9 @@ export function Email(){
     return(
         <div >
          <p className=' font-bold flex justify-center '>Lets Get Started</p>
-          <div className=' flex justify-center '>
+      
             <Inputbox onchangehandler={onchangehandler}/>
-          </div>
+          
           <Continuebutton checkValid={isValid} letcontinue={oncontinue}/>
     </div>
     )
